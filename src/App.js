@@ -1,19 +1,22 @@
-import React, { useEffect } from 'react'
-import IndexRouter from './router/indexRouter'
+import React from 'react'
+import indexRouter from './router/indexRouter'
+
 // import styles from './App.module.css'
 // import axios from 'axios'
 
 
 const App = () => {
 
-   
-    
   return (
-<div>
-<IndexRouter/>
-</div>
-   
+  <div>homepage</div>
+
+  // <div> <indexRouter/> </div>
   )
+ 
+
+   
+
+  
 }
 
 export default App

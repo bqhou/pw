@@ -1,22 +1,21 @@
 import React from 'react'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Login from '../views/login/Login'
-import NewsSandBox from '../views/sandbox/NewsSandBox'
-const IndexRouter = () => {
-  return (
-    <Router>
-        <Routes>
-        <Route path='/login' element={Login}></Route>
-        <Route path='/sandbox' element={NewsSandBox}></Route>
+import {BrowserRouter as  Router, Routes,Route} from 'react-router-dom'
 
-        </Routes>
+import NewsSandBox from '../views/sandbox/NewsSandBox'
+import Register from '../views/reg/Register'
+const indexRouter = () => {
+  return (
+    
+      <Routes>
+              <Route path='/reg' element={<Register/>}/>
+              <Route path='/' element={<NewsSandBox/>}/>
+
+          </Routes>
 
     
-     
-    </Router>
-
+          
 
   )
 }
 
-export default IndexRouter
+export default indexRouter
