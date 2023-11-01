@@ -1,22 +1,15 @@
 import React from 'react'
-import indexRouter from './router/indexRouter'
 
-// import styles from './App.module.css'
-// import axios from 'axios'
-
+import IndexRouter from './components/router/IndexRouter'
 
 const App = () => {
-
   return (
-  <div>homepage</div>
+    <div>
 
-  // <div> <indexRouter/> </div>
+    <IndexRouter/>
+    </div>
+    
   )
- 
-
-   
-
-  
 }
 
 export default App
